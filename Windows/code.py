@@ -47,7 +47,7 @@ class Application(tk.Frame):
 
     def create_widgets(self):
         # Setup the main application window
-        self.master.title("Automated Memory Analysis Tool")
+        self.master.title("ForensicFusion")
         self.master.configure(bg="black")
         self.current_step = "WELCOME"
         self.create_welcome_page()
@@ -60,7 +60,7 @@ class Application(tk.Frame):
             widget.destroy()
 
         # Add widgets for the welcome page
-        self.welcome_lable = tk.Label(self.frame, text="Automated Memory Analysis tool!\n", bg="black", fg="#aaff33", font=("Terminal",35))
+        self.welcome_lable = tk.Label(self.frame, text="ForensicFusion: Automated Memory Analysis tool!\n", bg="black", fg="#aaff33", font=("Terminal",35))
         
         self.welcome_lable.grid(row=0, column=1,pady=50)
 
