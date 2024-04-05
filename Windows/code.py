@@ -80,12 +80,6 @@ class Application(tk.Frame):
         self.welcome_button=tk.Button(self.frame, text="start",bg="#aaff33", fg="#f22525" , font=("Terminal",30), command=self.info_page)
         self.welcome_button.grid(row=5, column=1,pady=20)
 
-
-        #self.image_path = r"C:\Users\dudu0\Downloads\photo.png"  # Change to your image file path
-        #self.image = tk.PhotoImage(file=self.image_path)
-        #self.image_label = tk.Label(self.frame, image=self.image, bg="black")
-        #self.image_label.pack()
-
         
 ##############################################################################################################################################################################################################
 ##############################################################################################################################################################################################################
