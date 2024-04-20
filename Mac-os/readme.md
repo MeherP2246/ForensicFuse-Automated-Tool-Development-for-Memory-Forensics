@@ -1,6 +1,6 @@
 # Instruction
 
-Please run this code only if your HOST machine's OS is Linux. 
+Please run this code only if your HOST machine is Mac-os. 
 
 ## Steps
 
