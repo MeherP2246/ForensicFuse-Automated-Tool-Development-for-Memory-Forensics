@@ -10,7 +10,8 @@ Step 2: Open the terminal and Run the below command \
 ```$python3 code.py``` \
 Step 3: Open the application window that appears, and utilize the application within it.
 
-
+## Note 
+You can run the code using another IDE (like Visual Studio). 
 
 
 
