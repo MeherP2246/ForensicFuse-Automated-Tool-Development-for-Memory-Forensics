@@ -1159,7 +1159,7 @@ class Application(tk.Frame):
         self.windows_docker_back = tk.Button(self.frame, text="Back", bg="#ccff33", fg="#b21e1e", font=("Terminal",20), justify="right", command=self.volatility_cheatsheet)
         self.windows_docker_back.grid(row=13, column=0, sticky='w', pady=(10, 0))
 
-        self.windows_docker_sample = tk.Button(self.frame, text="Click hre to see \nsample Document", bg="#ccff33", fg="#b21e1e", font=("Terminal",20), justify="right", command=self.sample_Volatality_Document)
+        self.windows_docker_sample = tk.Button(self.frame, text="Click here to see \nsample Document", bg="#ccff33", fg="#b21e1e", font=("Terminal",20), justify="right", command=self.sample_Volatality_Document)
         self.windows_docker_sample.grid(row=11, column=2, sticky='e', pady=(10, 0))
 
 #########################################################################################################################################################################################################
@@ -1529,7 +1529,7 @@ class Application(tk.Frame):
         self.linux_docker_back = tk.Button(self.frame, text="Back", bg="#ccff33", fg="#b21e1e", font=("Terminal",20), justify="right", command=self.linux_volatility_cheatsheet)
         self.linux_docker_back.grid(row=13, column=0, sticky='w',  pady=10)
 
-        self.linux_docker_sample = tk.Button(self.frame, text="Click hre to see \nsample Document", bg="#ccff33", fg="#b21e1e", font=("Terminal",20), justify="right", command=self.sample_Volatality_Document)
+        self.linux_docker_sample = tk.Button(self.frame, text="Click here to see \nsample Document", bg="#ccff33", fg="#b21e1e", font=("Terminal",20), justify="right", command=self.sample_Volatality_Document)
         self.linux_docker_sample.grid(row=11, column=2, sticky='e', pady=10)
 
 ##############################################################################################################################################################################################################
@@ -1959,7 +1959,7 @@ class Application(tk.Frame):
         self.macos_back_button = tk.Button(self.frame, text="Back", bg="#ccff33", fg="#b21e1e", font=("Terminal",15), justify="right", command=self.macos_volatility_cheatsheet)
         self.macos_back_button.grid(row=10, column=0, sticky='w', pady=(5, 0))
 
-        self.macos_sample = tk.Button(self.frame, text="Click hre to see \nsample Document", bg="#ccff33", fg="#b21e1e", font=("Terminal",15), justify="right", command=self.sample_Document)
+        self.macos_sample = tk.Button(self.frame, text="Click here to see \nsample Document", bg="#ccff33", fg="#b21e1e", font=("Terminal",15), justify="right", command=self.sample_Document)
         self.macos_sample.grid(row=9, column=2, sticky='e', pady=(5, 0))
        
 ##############################################################################################################################################################################################################
